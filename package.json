@@ -1,0 +1,33 @@
+{
+    "name": "dhad-lang",
+    "displayName": "Dhad Language",
+    "description": "Syntax highlighting for dhad-based programming language",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [
+            {
+                "id": "dhad",
+                "aliases": ["dhad", "dhad"],
+                "extensions": [".ض"],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "dhad",
+                "scopeName": "source.dhad",
+                "path": "./syntaxes/dhad.tmLanguage.json"
+            }
+        ],
+    "icon": {
+        "light": "./dhad-logo.png",
+        "dark": "./dhad-logo.png"
+    }
+    }
+}

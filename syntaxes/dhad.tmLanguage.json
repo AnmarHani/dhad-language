@@ -1,0 +1,19 @@
+{
+    "scopeName": "source.dhad",
+    "patterns": [
+        {
+            "name": "keyword.control.dhad",
+            "match": "\\b(اجعل قيمة|اذا اصبح|يساوي|فافعل|متغير|اطبع|وقيمته|ب| يسمى)\\b"
+        },
+        {
+            "name": "constant.numeric.dhad",
+            "match": "\\b\\d+\\b"
+        },
+        {
+            "name": "variable.other.dhad",
+            "match": "\\b[ا-ي]+\\b"
+        }
+    ],
+    "repository": {},
+    "namespaces": []
+}
